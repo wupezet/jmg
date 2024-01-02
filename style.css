@@ -1,0 +1,64 @@
+body{
+    font-family: Verdana;
+    background-color: burlywood;
+}
+.naglowek{
+    background-color: rgb(110, 64, 48);
+    color: bisque;
+    height: 100px;
+    width: 100%;
+    padding: 25px;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+}
+main{
+    display: flex;
+    margin: 0;
+}
+.lewa{
+    background-color: brown;
+    color: rgb(182, 156, 125);
+    height: 500px;
+    width: calc(33% - 120px);
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.srodek{
+    background-color: rgb(77, 52, 27);
+    color: rgb(150, 118, 80);
+    height: 500px;
+    width: calc(33% - 120px);
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.prawo{
+    background-color: rgb(53, 28, 19);
+    color: rgb(253, 204, 143);
+    height: 500px;
+    width: calc(33% - 120px);
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.podpis{
+    clear: both;
+    background-color: blanchedalmond;
+    color: black;
+    font-size: x-small;
+    width: 100%;
+    height: 15px;
+    padding-left: 85%;
+    margin: 20px;
+
+}
